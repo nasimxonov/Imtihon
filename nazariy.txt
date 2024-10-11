@@ -1,0 +1,36 @@
+1.Set va tuplening farqi:
+-->Tuple o'zgarmas bo'lib uni o'zgartirish mumkin emas uni o'zgartirish uchun setga yoki listga o'tkizib olinadi.
+-->Set ichini o'zgartirishlar kiritsa bo'ladi update ,union, pop, difference va boshqalar
+
+2.discard() va remove() o'chiradi 
+    discard() - xato qaytaradi
+    remove() - xato qaytarmaydi 
+    listga, setga ishaltiladi!
+Yana o'chirish methodlaridan pop(); O'chirish funktsiyasi ham bor "del"; Tozalash uchun clear() ishlatiladi;
+
+3.Inkapsulyatsiya turlari:
+    1.private;
+    2.public;
+    3.property;
+__private = foydalanuvchidan malumotlarini o'zgartirolmasligi uchun
+
+4."Git" va "GitHub"ning farqi:
+    "GitHub" online git bo'lib unga yozgan kodlarimizni saqlab ketsak bo'ladi masalan,
+    qachondir dasturimizga yangilanish kiritilsa yoki harkuni kod yozganimizda yangilanish bo'ladi shularni saqlab boriladi
+    GitHub yana ishga kirishda dasturchining yuzi bo'ladi uni qanchalik yaxshi yuritsak faqatgina foyda bo'ladi.
+
+    "Git" qisqa qilib aytilganda github ning offline ko'rinishi 
+
+    Komandalar:
+        git add .
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin 
+        git push -u origin main
+
+5."Filter","Map" va "Reduce" ning farqlari:
+    1."Filter" - filter(funktsiya nomi va itarable kiritiladi)
+    2."Map" - masalan bitta qatordan ajratib beradi; Misol uchun a,b,c = map(datatypelar,input().split())  bir qatorda foydalanuvchidan malumotlar olish 
+    3."Reduce" - ....
+
+    
